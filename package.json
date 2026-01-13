@@ -7,20 +7,20 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "start": "npm run dev:docs",
-    "reset": "pnpm --force --filter @antv/xflow... install",
-    "dev:main": "pnpm --filter @antv/xflow start",
-    "dev:hook": "pnpm start --filter @antv/xflow-hook",
-    "dev:core": "pnpm --filter @antv/xflow-core start",
-    "dev:ext": "pnpm --filter @antv/xflow-extension start",
+    "reset": "pnpm --force --filter @sunspirytus/xflow... install",
+    "dev:main": "pnpm --filter @sunspirytus/xflow start",
+    "dev:hook": "pnpm start --filter @sunspirytus/xflow-hook",
+    "dev:core": "pnpm --filter @sunspirytus/xflow-core start",
+    "dev:ext": "pnpm --filter @sunspirytus/xflow-extension start",
     "dev:docs": "pnpm --filter xflow-docs start",
-    "build": "pnpm run build --filter @antv/xflow... --stream",
-    "build:less": "pnpm run build:less --filter @antv/xflow... --stream",
-    "release": "pnpm publish --no-git-checks -r  --filter @antv/xflow...",
-    "ci:publish": "pnpm run release --filter @antv/xflow... --stream",
+    "build": "pnpm run build --filter @sunspirytus/xflow... --stream",
+    "build:less": "pnpm run build:less --filter @sunspirytus/xflow... --stream",
+    "release": "pnpm publish --no-git-checks -r  --filter @sunspirytus/xflow...",
+    "ci:publish": "pnpm run release --filter @sunspirytus/xflow... --stream",
     "ci:version": "pnpm changeset version",
     "add:changelog": "pnpm changeset",
     "deploy:docs": "pnpm run deploy --filter xflow-docs",
-    "test": "pnpm run test --filter @antv/xflow-hook --filter @antv/xflow-core",
+    "test": "pnpm run test --filter @sunspirytus/xflow-hook --filter @sunspirytus/xflow-core",
     "ci": "echo 'no-ci'",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
@@ -64,7 +64,7 @@
   "ci": {
     "verison": 12
   },
-  "repository": "https://github.com/antvis/XFlow.git",
-  "author": "boyu.zlj <boyu.zlj@antgroup.com>",
+  "repository": "https://github.com/Sunspirytus/XFlow.git",
+  "author": "sunjize <sunjize1112@qq.com>",
   "license": "MIT"
 }

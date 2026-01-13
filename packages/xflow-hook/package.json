@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@antv/xflow-hook",
+  "name": "@sunspirytus/xflow-hook",
   "version": "1.0.52",
   "license": "MIT",
   "scripts": {
