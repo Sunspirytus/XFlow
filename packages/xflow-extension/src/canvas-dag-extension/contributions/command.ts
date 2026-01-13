@@ -40,11 +40,14 @@ export namespace NsGraphStatusCommand {
   }
   /** 状态 类型 */
   export enum StatusEnum {
-    SUCCESS = 'success',
-    PROCESSING = 'processing',
-    ERROR = 'error',
-    DEFAULT = 'default',
-    WARNING = 'warning',
+    SUCCEEDED = 'SUCCEEDED',
+    RUNNING = 'RUNNING',
+    FAILED = 'FAILED',
+    PENDING = 'PENDING',
+    CREATING = 'CREATING',
+    MANUAL_TERMINATE = 'MANUAL_TERMINATE',
+    CACHED = 'CACHED',
+    UNKNOWN = 'UNKNOWN',
   }
   /** 节点状态 类型 */
   export interface INodeStatus {
@@ -60,11 +63,14 @@ export namespace NsGraphStatusCommand {
   export type IStatusMap = Record<NsGraphStatusCommand.StatusEnum, string[]>
   /** 按status 分类  */
   export const initStatusMap = () => ({
-    [NsGraphStatusCommand.StatusEnum.DEFAULT]: [],
-    [NsGraphStatusCommand.StatusEnum.PROCESSING]: [],
-    [NsGraphStatusCommand.StatusEnum.ERROR]: [],
-    [NsGraphStatusCommand.StatusEnum.WARNING]: [],
-    [NsGraphStatusCommand.StatusEnum.SUCCESS]: [],
+    [NsGraphStatusCommand.StatusEnum.SUCCEEDED]: [],
+    [NsGraphStatusCommand.StatusEnum.RUNNING]: [],
+    [NsGraphStatusCommand.StatusEnum.FAILED]: [],
+    [NsGraphStatusCommand.StatusEnum.PENDING]: [],
+    [NsGraphStatusCommand.StatusEnum.CREATING]: [],
+    [NsGraphStatusCommand.StatusEnum.MANUAL_TERMINATE]: [],
+    [NsGraphStatusCommand.StatusEnum.CACHED]: [],
+    [NsGraphStatusCommand.StatusEnum.UNKNOWN]: [],
   })
   /** 接口返回 类型 */
   export const groupByStatus = (data: Record<string, INodeStatus>) => {
@@ -89,7 +95,7 @@ export namespace NsGraphStatusCommand {
     return diff
   }
   export const shouldStop = async (info: IStatusInfo) => {
-    return [StatusEnum.ERROR, StatusEnum.SUCCESS].includes(info.graphStatus)
+    return [StatusEnum.FAILED, StatusEnum.SUCCEEDED].includes(info.graphStatus)
   }
 }
 /** 创建节点命令 */
@@ -176,8 +182,8 @@ export class QueryGraphStatusCommand implements ICommand {
     nextStatusMap: NsGraphStatusCommand.IStatusMap,
   ) => {
     const runningNodes = NsGraphStatusCommand.statusDiff(
-      curStatusInfo.processing,
-      nextStatusMap.processing,
+      curStatusInfo.RUNNING,
+      nextStatusMap.RUNNING,
     )
     const edges = this.x6Graph.getEdges()
     edges.forEach(edge => {

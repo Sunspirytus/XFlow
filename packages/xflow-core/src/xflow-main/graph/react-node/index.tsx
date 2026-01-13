@@ -5,7 +5,10 @@ import {
   CloseCircleOutlined,
   CheckCircleOutlined,
   ExclamationCircleOutlined,
-  InfoCircleOutlined,
+  QuestionCircleOutlined,
+  StopOutlined,
+  EditOutlined,
+  CloudDownloadOutlined,
 } from '@ant-design/icons'
 import type { NsGraph } from '../../../interface'
 
@@ -13,11 +16,14 @@ const fontStyle = { fontSize: '16px', color: '#3057e3' }
 
 /** 状态 类型 */
 export enum StatusEnum {
-  SUCCESS = 'success',
-  PROCESSING = 'processing',
-  ERROR = 'error',
-  DEFAULT = 'default',
-  WARNING = 'warning',
+  SUCCEEDED = 'SUCCEEDED',
+  RUNNING = 'RUNNING',
+  FAILED = 'FAILED',
+  PENDING = 'PENDING',
+  CREATING = 'CREATING',
+  MANUAL_TERMINATE = 'MANUAL_TERMINATE',
+  CACHED = 'CACHED',
+  UNKNOWN = 'UNKNOWN',
 }
 
 export const AlgoIcon: React.FC<IProps> = props => {
@@ -25,16 +31,22 @@ export const AlgoIcon: React.FC<IProps> = props => {
     return null
   }
   switch (props.status) {
-    case StatusEnum.PROCESSING:
+    case StatusEnum.RUNNING:
       return <RedoOutlined spin style={{ color: '#c1cdf7', fontSize: '16px' }} />
-    case StatusEnum.ERROR:
+    case StatusEnum.FAILED:
       return <CloseCircleOutlined style={{ color: '#ff4d4f', fontSize: '16px' }} />
-    case StatusEnum.SUCCESS:
+    case StatusEnum.SUCCEEDED:
       return <CheckCircleOutlined style={{ color: '#39ca74cc', fontSize: '16px' }} />
-    case StatusEnum.WARNING:
+    case StatusEnum.PENDING:
       return <ExclamationCircleOutlined style={{ color: '#faad14', fontSize: '16px' }} />
-    case StatusEnum.DEFAULT:
-      return <InfoCircleOutlined style={{ color: '#d9d9d9', fontSize: '16px' }} />
+    case StatusEnum.CREATING:
+      return <EditOutlined style={{ color: '#faad14', fontSize: '16px' }} />
+    case StatusEnum.MANUAL_TERMINATE:
+      return <StopOutlined style={{ color: '#faad14', fontSize: '16px' }} />
+    case StatusEnum.CACHED:
+      return <CloudDownloadOutlined style={{ color: '#faad14', fontSize: '16px' }} />
+    case StatusEnum.UNKNOWN:
+      return <QuestionCircleOutlined style={{ color: '#d9d9d9', fontSize: '16px' }} />
     default:
       return null
   }

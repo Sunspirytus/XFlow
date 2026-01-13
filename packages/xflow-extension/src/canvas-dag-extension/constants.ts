@@ -29,11 +29,14 @@ export namespace GRAPH_STATUS_INFO {
   export const id = 'GRAPH_STATUS_INFO'
   /** 类型 */
   export enum StatusEnum {
-    SUCCESS = 'success',
-    PROCESSING = 'processing',
-    ERROR = 'error',
-    DEFAULT = 'default',
-    WARNING = 'warning',
+    SUCCEEDED = 'SUCCEEDED',
+    RUNNING = 'RUNNING',
+    FAILED = 'FAILED',
+    PENDING = 'PENDING',
+    CREATING = 'CREATING',
+    MANUAL_TERMINATE = 'MANUAL_TERMINATE',
+    CACHED = 'CACHED',
+    UNKNOWN = 'UNKNOWN',
   }
   export interface INodeStatus {
     status: StatusEnum

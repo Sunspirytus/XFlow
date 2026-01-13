@@ -373,7 +373,7 @@ export class DagHooksContribution
       getInitialValue: () => ({
         statusMap: new Map(),
         subscription: new DisposableCollection(),
-        graphStatus: GRAPH_STATUS_INFO.StatusEnum.DEFAULT,
+        graphStatus: GRAPH_STATUS_INFO.StatusEnum.PENDING,
       }),
       watchChange: async self => {
         const { subscription } = await self.getValidValue()
