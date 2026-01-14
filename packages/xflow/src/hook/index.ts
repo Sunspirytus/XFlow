@@ -6,4 +6,4 @@ export {
   IMainHandler,
   ScheduleOptions,
   ScheduleTypeEnum,
-} from '@antv/xflow-hook'
+} from '@sunspirytus/xflow-hook'

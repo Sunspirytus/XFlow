@@ -1,3 +1,4 @@
+import React from 'react'
 import InputFiled from './input'
 import ColorPicker from './color'
 import InputNumberFiled from './input-number'

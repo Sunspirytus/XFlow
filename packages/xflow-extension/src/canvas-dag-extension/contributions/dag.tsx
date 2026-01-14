@@ -4,7 +4,7 @@ import {
   NsGraph,
   Disposable,
   XFlowEdgeCommands,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 import type {
   IModelService,
   IHookService,
@@ -12,16 +12,16 @@ import type {
   NsEdgeCmd,
   NsNodeCmd,
   IGraphCommandService,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 import {
   IGraphCommandFactory,
   IHookContribution,
   IModelContribution,
   IGraphCommandContribution,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 import type { Edge, Graph, Node } from '@antv/x6'
 import type { EventArgs } from '@antv/x6/lib/graph/events'
-import { HookHub } from '@antv/xflow-hook'
+import { HookHub } from '@sunspirytus/xflow-hook'
 import { XFlowNode } from '../x6-extension/node'
 import { XFlowEdge } from '../x6-extension/edge'
 import { GRAPH_STATUS_INFO } from '../constants'

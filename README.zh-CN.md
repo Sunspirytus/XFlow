@@ -71,8 +71,8 @@ $ yarn add @antv/xflow
 首先, 我们需要构建一个 XFlow 工作空间，其中 XFlowCanvas 画布组件，CanvasScaleToolbar 工具栏、CanvasMiniMap 小地图、CanvasSnapline 对齐线等交互组件，都是 XFlow 工作空间中的内容。`需要强调的是，在XFlow 中，一切都是React 组件`。
 
 ```tsx | pure
-import { XFlow, XFlowCanvas } from '@antv/xflow'
-import { CanvasScaleToolbar, CanvasMiniMap, CanvasSnapline } from '@antv/xflow-extension'
+import { XFlow, XFlowCanvas } from '@sunspirytus/xflow'
+import { CanvasScaleToolbar, CanvasMiniMap, CanvasSnapline } from '@sunspirytus/xflow-extension'
 import { useGraphConfig } from './config-graph'
 
 return (
@@ -108,7 +108,7 @@ return (
 然后, 我们需要设置画布全局配置项 `graphConfig`, 该配置项决定了画布上的内容如何呈现。比如画布是否需要网格、画布的缩放等级、画布是否支持滚轮缩放等, 再比如画布上需要渲染哪种类型的 React 节点/连线等。
 
 ```tsx | pure
-import { createGraphConfig } from '@antv/xflow'
+import { createGraphConfig } from '@sunspirytus/xflow'
 import Node1 from './react-node/node1'
 import Edge1 from './react-edge/edge1'
 

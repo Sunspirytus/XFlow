@@ -1,12 +1,12 @@
 import type { Graph } from '@antv/x6'
-import type { NsGraph } from '@antv/xflow-core'
+import type { NsGraph } from '@sunspirytus/xflow-core'
 import type { NsPanelData } from './service'
 import type { IProps, IFlowchartNode } from './interface'
 import type { ITreeNode } from '../canvas-node-tree-panel/interface'
 import React, { useCallback } from 'react'
 import { Empty, Collapse } from 'antd'
 import { Addon } from '@antv/x6'
-import { getNodeReactComponent, useXFlowApp, uuidv4, XFlowNodeCommands } from '@antv/xflow-core'
+import { getNodeReactComponent, useXFlowApp, uuidv4, XFlowNodeCommands } from '@sunspirytus/xflow-core'
 import { getProps } from '../flowchart-canvas/utils'
 import { NodeTitle, defaultNodeFactory } from '../canvas-node-tree-panel/panel-body'
 import { isArray } from 'lodash'
@@ -130,7 +130,6 @@ export const NodePanelBody: React.FC<IBodyProps> = props => {
         return (
           <NodeTitle
             item={item as ITreeNode}
-            key={item.id}
             onMouseDown={onMouseDown(item)}
             popoverContent={popoverContent}
             prefixClz={prefixClz}

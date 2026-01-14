@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
-import type { NsGraphCmd } from '@antv/xflow-core'
-import { XFlowGraphCommands, MODELS, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow-core'
+import type { NsGraphCmd } from '@sunspirytus/xflow-core'
+import { XFlowGraphCommands, MODELS, XFlowNodeCommands, XFlowEdgeCommands } from '@sunspirytus/xflow-core'
 import { onConfigChange } from '../flowchart-canvas/utils'
 import { FormItemWrapper } from '../canvas-json-schema-form'
 import { usePanelContext } from '../base-panel/context'

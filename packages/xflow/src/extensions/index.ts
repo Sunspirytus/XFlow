@@ -1,31 +1,31 @@
 /** 对齐线 */
-export { CanvasSnapline, ICanvasSnaplineProps } from '@antv/xflow-extension'
+export { CanvasSnapline, ICanvasSnaplineProps } from '@sunspirytus/xflow-extension'
 
 /** Port Tooltip */
-export { CanvasNodePortTooltip } from '@antv/xflow-extension'
+export { CanvasNodePortTooltip } from '@sunspirytus/xflow-extension'
 
 /** 画布 右键菜单 */
 export {
   CanvasContextMenu,
   ICanvasContextMenuProps,
   createCtxMenuConfig,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'
 
 /** 画布 Scale Toolbar */
 export {
   CanvasScaleToolbar,
   ICanvasScaleToolbarProps,
   CANVAS_SCALE_TOOLBAR_CONFIG,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'
 
 /** 画布 Toolbar */
-export { CanvasToolbar, IToolbarProps, createToolbarConfig } from '@antv/xflow-extension'
+export { CanvasToolbar, IToolbarProps, createToolbarConfig } from '@sunspirytus/xflow-extension'
 
 /** demo utils */
-export { FormBuilder, IFormSchema, randomInt } from '@antv/xflow-extension'
+export { FormBuilder, IFormSchema, randomInt } from '@sunspirytus/xflow-extension'
 
 /** 画布 minimap */
-export { CanvasMiniMap, ICanvasMiniMapProps } from '@antv/xflow-extension'
+export { CanvasMiniMap, ICanvasMiniMapProps } from '@sunspirytus/xflow-extension'
 
 /** 组件树 */
 export {
@@ -33,7 +33,7 @@ export {
   NsNodeTreePanelModel,
   INodeTreePanelProps,
   NsNodeTreePanel,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'
 
 /** 组件折叠面板 */
 export {
@@ -41,7 +41,7 @@ export {
   NsCollapsePanelModel,
   NsNodeCollapsePanel,
   INodeCollapsePanelProps,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'
 
 /** JSON Schema Form */
 export {
@@ -52,10 +52,10 @@ export {
   NsJsonSchemaForm,
   NsJsonSchemaFormModel,
   executeJsonSchemaFormCommand,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'
 
 /** Panel 提供 getValue context和 ensure app context存在 */
-export { WorkspacePanel, usePanelContext, IWorkspacePanelProps } from '@antv/xflow-extension'
+export { WorkspacePanel, usePanelContext, IWorkspacePanelProps } from '@sunspirytus/xflow-extension'
 
 /** DAG图扩展 */
 export {
@@ -63,10 +63,10 @@ export {
   GRAPH_STATUS_INFO,
   XFlowDagCommands,
   NsGraphStatusCommand,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'
 
 /** 流程图扩展 */
-export { FlowGraphExtension } from '@antv/xflow-extension'
+export { FlowGraphExtension } from '@sunspirytus/xflow-extension'
 
 /** 流程图相关组件 */
 export {
@@ -81,4 +81,4 @@ export {
   IFlowchartFormWrapperProps,
   EditorPanels,
   FlowchartService,
-} from '@antv/xflow-extension'
+} from '@sunspirytus/xflow-extension'

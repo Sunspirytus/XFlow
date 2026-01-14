@@ -1,7 +1,7 @@
 import React from 'react'
 import type { IConfig } from '../module'
 import { createModule } from '../module'
-import { XFlowAppExtensionModule, useExtensionRegistry, insertCss } from '@antv/xflow-core'
+import { XFlowAppExtensionModule, useExtensionRegistry, insertCss } from '@sunspirytus/xflow-core'
 
 export interface IProps {
   color?: string

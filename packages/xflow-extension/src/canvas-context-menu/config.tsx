@@ -4,10 +4,11 @@ import type {
   RxModel,
   IMenuOptions,
   DisposableCollection,
-} from '@antv/xflow-core'
-import { uuidv4 } from '@antv/xflow-core'
-import type { MODELS } from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
+import { uuidv4 } from '@sunspirytus/xflow-core'
+import type { MODELS } from '@sunspirytus/xflow-core'
 import type { IMenuRenderProps } from './interface'
+import React from 'react'
 
 export namespace NsContextMenu {
   export const CONFIG_TYPE = 'ContextMenuConfig'

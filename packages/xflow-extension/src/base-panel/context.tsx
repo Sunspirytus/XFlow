@@ -1,5 +1,5 @@
 import React from 'react'
-import type { IGraphCommandService, IModelService } from '@antv/xflow-core'
+import type { IGraphCommandService, IModelService } from '@sunspirytus/xflow-core'
 import type { PropsProxy } from './config'
 
 interface IContext<T = any> {

@@ -1,4 +1,4 @@
-import type { IMenuOptions } from '@antv/xflow-core'
+import type { IMenuOptions } from '@sunspirytus/xflow-core'
 import {
   ManaSyringe,
   DisposableCollection,
@@ -7,8 +7,8 @@ import {
   IModelService,
   RxModel,
   Disposable,
-} from '@antv/xflow-core'
-import { MODELS } from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
+import { MODELS } from '@sunspirytus/xflow-core'
 import { CONTEXT_MENU_MODEL } from '../interface'
 import { ContextMenuConfig } from '../config'
 

@@ -1,11 +1,11 @@
 import type { Graph } from '@antv/x6'
-import type { NsGraph, IModelService } from '@antv/xflow-core'
-import type { ICmdHooks } from '@antv/xflow-core'
+import type { NsGraph, IModelService } from '@sunspirytus/xflow-core'
+import type { ICmdHooks } from '@sunspirytus/xflow-core'
 import classnames from 'classnames'
-import { IHookContribution, ManaSyringe } from '@antv/xflow-core'
-import { IGraphProvider } from '@antv/xflow-core'
+import { IHookContribution, ManaSyringe } from '@sunspirytus/xflow-core'
+import { IGraphProvider } from '@sunspirytus/xflow-core'
 import { ACTIVE_NODE_PORT, NsPortEvent } from '../interface'
-import { DisposableCollection, IModelContribution, Disposable } from '@antv/xflow-core'
+import { DisposableCollection, IModelContribution, Disposable } from '@sunspirytus/xflow-core'
 
 /**
  * 内置的hook contribution

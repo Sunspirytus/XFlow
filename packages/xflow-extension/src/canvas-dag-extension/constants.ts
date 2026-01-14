@@ -1,6 +1,6 @@
-import type { DisposableCollection } from '@antv/xflow-core'
-import type { IGraphCommand } from '@antv/xflow-core'
-import { getModelUtil, useModelValueUtil } from '@antv/xflow-core/es/model-service/constant'
+import type { DisposableCollection } from '@sunspirytus/xflow-core'
+import type { IGraphCommand } from '@sunspirytus/xflow-core'
+import { getModelUtil, useModelValueUtil } from '@sunspirytus/xflow-core/es/model-service/constant'
 
 export const EDGE_PATH_TYPE = {
   /** node 水平 */

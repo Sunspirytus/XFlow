@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 /** Application 扩展依赖 */
-import { ManaSyringe } from '@antv/xflow-core'
+import { ManaSyringe } from '@sunspirytus/xflow-core'
 import { CanvasContextMenuContribution } from './contributions/model'
 import { ContextMenuConfig } from './config'
 

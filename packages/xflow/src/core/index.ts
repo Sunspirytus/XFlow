@@ -1,7 +1,7 @@
-export { ManaSyringe } from '@antv/xflow-core'
+export { ManaSyringe } from '@sunspirytus/xflow-core'
 
 /** XFlow 基础 interface */
-export { NsGraph } from '@antv/xflow-core'
+export { NsGraph } from '@sunspirytus/xflow-core'
 
 /*******************************************************
  * 核心组件：
@@ -25,13 +25,13 @@ export {
   // extension context: 注册扩展
   ExtensionRegistryContext,
   useExtensionRegistry,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /** widget：extension  */
-export { IExtensionModule, IModuleConfig } from '@antv/xflow-core'
+export { IExtensionModule, IModuleConfig } from '@sunspirytus/xflow-core'
 
 /** graphProvider：注入Graph时 需要 */
-export { IGraphConfig, IGraphProvider, createGraphConfig } from '@antv/xflow-core'
+export { IGraphConfig, IGraphProvider, createGraphConfig } from '@sunspirytus/xflow-core'
 
 /** app：用于extension扩展*/
 export {
@@ -40,7 +40,7 @@ export {
   IAppLoad,
   IAppDestroy,
   IAppConfigReady,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  Command Service： 命令模块
@@ -52,7 +52,7 @@ export type {
   IGraphCommand,
   ICommandConfig,
   IGraphPipelineCommand,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /** Command Service */
 export {
@@ -63,7 +63,7 @@ export {
   IGraphCommandFactory,
   GraphCommandRegistry,
   commandRegistryModule,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /** Command 常量 */
 export {
@@ -74,7 +74,7 @@ export {
   XFlowModelCommands,
   /** 创建 Command hook config */
   createCmdConfig,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 export type {
   /** Command 类型*/
@@ -87,10 +87,10 @@ export type {
   ICmdHooks,
   /** Command扩展的类型 */
   ICommandContributionConfig,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /** React Node Context */
-export { AppContext, useAppContext, getNodeReactComponent } from '@antv/xflow-core'
+export { AppContext, useAppContext, getNodeReactComponent } from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  XFlow Hooks： 钩子函数
@@ -108,7 +108,7 @@ export {
   IHooks,
   // 创建 React config hook
   createHookConfig,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  Model Service：全局状态
@@ -122,11 +122,11 @@ export {
   IModelContribution,
   IModelRegisterFunction,
   createModelServiceConfig,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
-export { RxModel, NsModel } from '@antv/xflow-core'
+export { RxModel, NsModel } from '@sunspirytus/xflow-core'
 
-export { useModel, createComponentModel, useModelAsync, useIsMountedRef } from '@antv/xflow-core'
+export { useModel, createComponentModel, useModelAsync, useIsMountedRef } from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  Toolbar：工具栏
@@ -148,7 +148,7 @@ export {
   IToolbarItemOptions,
   IToolbarGroupOptions,
   IRegisterToolbarItemFunction,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  Menu：菜单
@@ -170,7 +170,7 @@ export {
   IRegisterMenuFunction,
   // Component
   MenuRegistry,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  KeyBindings：快捷键
@@ -182,32 +182,32 @@ export {
   createKeybindingConfig,
   KeybindingConfig,
   IKeyBindingContribution,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 /*******************************************************
  *  UTILS：工具方法
  *****************************************************/
 
 /** utils：dispose */
-export { Disposable, DisposableCollection } from '@antv/xflow-core'
+export { Disposable, DisposableCollection } from '@sunspirytus/xflow-core'
 /** utils：defer 延迟 */
-export { Deferred } from '@antv/xflow-core'
+export { Deferred } from '@sunspirytus/xflow-core'
 /** utils：延迟 */
-export { delay } from '@antv/xflow-core'
+export { delay } from '@sunspirytus/xflow-core'
 /** utils：uuid */
-export { uuidv4 } from '@antv/xflow-core'
+export { uuidv4 } from '@sunspirytus/xflow-core'
 /** utils：绝对定位 */
-export { IPosition, usePositionStyle } from '@antv/xflow-core'
-export { Simplify } from '@antv/xflow-core'
+export { IPosition, usePositionStyle } from '@sunspirytus/xflow-core'
+export { Simplify } from '@sunspirytus/xflow-core'
 /** utils：insertCss */
-export { insertCss, isReactComponent } from '@antv/xflow-core'
+export { insertCss, isReactComponent } from '@sunspirytus/xflow-core'
 
 /*******************************************************
  * Icon：Antd Icon
  *****************************************************/
 
 /** ICON */
-export { IconStore } from '@antv/xflow-core'
+export { IconStore } from '@sunspirytus/xflow-core'
 
 /** 全局常量 */
-export { XFlowConstants } from '@antv/xflow-core'
+export { XFlowConstants } from '@sunspirytus/xflow-core'

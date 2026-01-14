@@ -10,8 +10,8 @@ import type {
   IOnFolderExpand,
   INodeFactoryArgs,
 } from './interface'
-import type { IModelService, IGraphCommandService, IGraphConfig, NsGraph } from '@antv/xflow-core'
-import { getNodeReactComponent, useXFlowApp, XFlowConstants } from '@antv/xflow-core'
+import type { IModelService, IGraphCommandService, IGraphConfig, NsGraph } from '@sunspirytus/xflow-core'
+import { getNodeReactComponent, useXFlowApp, XFlowConstants } from '@sunspirytus/xflow-core'
 import { XFlowNode } from '../canvas-dag-extension/x6-extension/node'
 const { DirectoryTree, TreeNode } = Tree
 

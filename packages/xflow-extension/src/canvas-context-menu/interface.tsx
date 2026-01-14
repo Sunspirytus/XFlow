@@ -1,4 +1,5 @@
-import { MODELS } from '@antv/xflow-core'
+import React from 'react'
+import { MODELS } from '@sunspirytus/xflow-core'
 import type { ContextMenuConfig } from './config'
 import type {
   IAnchor,
@@ -6,7 +7,7 @@ import type {
   IMenuTarget,
   IModelService,
   DisposableCollection,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 export interface IProps {
   config: ContextMenuConfig

@@ -1,6 +1,6 @@
 import type { IProps, ILayoutProps } from './interface'
 import React, { useState, useCallback } from 'react'
-import { useXflowPrefixCls } from '@antv/xflow-core'
+import { useXflowPrefixCls } from '@sunspirytus/xflow-core'
 import { WorkspacePanel } from '../base-panel'
 import { CollapsePanelBody } from './panel-body'
 import { NodePanelHeader } from './panel-header'

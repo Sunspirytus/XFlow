@@ -26,16 +26,14 @@ export const Select: React.FC<Props> = props => {
             hidden={hidden}
             rules={rules}
           >
-            <ASelect disabled={disabled} placeholder={placeholder}>
-              {options.map(option => {
-                const { title, value } = option
-                return (
-                  <ASelect.Option key={value.toString()} value={value as any}>
-                    {title}
-                  </ASelect.Option>
-                )
-              })}
-            </ASelect>
+            <ASelect 
+              disabled={disabled} 
+              placeholder={placeholder}
+              options={options.map(option => ({
+                label: option.title,
+                value: option.value
+              }))}
+            />
           </Form.Item>
         )
       }}

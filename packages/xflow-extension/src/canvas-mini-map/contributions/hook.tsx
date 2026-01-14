@@ -1,6 +1,6 @@
-import type { ICmdHooks } from '@antv/xflow-core'
-import { DisposableCollection, Disposable } from '@antv/xflow-core'
-import { IHookContribution, ManaSyringe } from '@antv/xflow-core'
+import type { ICmdHooks } from '@sunspirytus/xflow-core'
+import { DisposableCollection, Disposable } from '@sunspirytus/xflow-core'
+import { IHookContribution, ManaSyringe } from '@sunspirytus/xflow-core'
 import { IMinimapConfigProvider } from '../interface'
 
 /**

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Tooltip } from 'antd'
-import { useXFlowApp, createComponentModel, XFlowAppExtensionModule } from '@antv/xflow-core'
+import { useXFlowApp, createComponentModel, XFlowAppExtensionModule } from '@sunspirytus/xflow-core'
 import type { IConfigProps } from '../interface'
 import { ACTIVE_NODE_PORT } from '../interface'
 import { createModule } from '../module'

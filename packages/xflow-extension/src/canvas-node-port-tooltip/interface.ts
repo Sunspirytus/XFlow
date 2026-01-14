@@ -1,4 +1,5 @@
-import type { NsGraph, IModelService } from '@antv/xflow-core'
+import React from 'react'
+import type { NsGraph, IModelService } from '@sunspirytus/xflow-core'
 
 export namespace NsPortEvent {
   export const MOUSE_ENTER = 'node-port:mouseenter'

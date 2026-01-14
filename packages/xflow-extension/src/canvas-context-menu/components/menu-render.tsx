@@ -5,11 +5,11 @@ import type {
   IMenuOptions,
   IModelService,
   IGraphCommandService,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 import {
   // app service
   IconStore,
-} from '@antv/xflow-core'
+} from '@sunspirytus/xflow-core'
 
 import { Menu } from '@antv/x6-react-components'
 

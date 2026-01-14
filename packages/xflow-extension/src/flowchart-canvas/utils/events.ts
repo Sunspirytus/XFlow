@@ -1,5 +1,5 @@
-import type { IGraphCommandService } from '@antv/xflow-core'
-import { XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow-core'
+import type { IGraphCommandService } from '@sunspirytus/xflow-core'
+import { XFlowNodeCommands, XFlowEdgeCommands } from '@sunspirytus/xflow-core'
 import { get } from 'lodash'
 import { onConfigChange, getGraphInstance } from './util'
 import type { Node } from '@antv/x6'

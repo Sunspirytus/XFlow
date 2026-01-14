@@ -70,8 +70,8 @@ For production environments, we recommend using an explicit version number to av
 First, we need to build an XFlow workspace, in which the XFlowCanvas canvas component, CanvasScaleToolbar toolbar, CanvasMiniMap minimap, CanvasSnapline alignment line and other interactive components are all content in the XFlow workspace. **It is important to emphasize that in XFlow, everything is a React component**
 
 ```tsx | pure
-import { XFlow, XFlowCanvas } from '@antv/xflow'
-import { CanvasScaleToolbar, CanvasMiniMap, CanvasSnapline } from '@antv/xflow-extension'
+import { XFlow, XFlowCanvas } from '@sunspirytus/xflow'
+import { CanvasScaleToolbar, CanvasMiniMap, CanvasSnapline } from '@sunspirytus/xflow-extension'
 import { useGraphConfig } from './config-graph'
 
 return (
@@ -104,7 +104,7 @@ return (
 Then, we need to set the canvas global configuration item `graphConfig`, which determines how the content on the canvas is rendered. For example, whether the canvas needs a grid, the zoom level of the canvas, whether the canvas supports scroll wheel zooming, etc., and what type of React nodes/connections need to be rendered on the canvas.
 
 ```tsx | pure
-import { createGraphConfig } from '@antv/xflow'
+import { createGraphConfig } from '@sunspirytus/xflow'
 import Node1 from './react-node/node1'
 import Edge1 from './react-edge/edge1'
 

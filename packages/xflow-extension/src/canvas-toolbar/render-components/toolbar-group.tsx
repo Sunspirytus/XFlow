@@ -2,8 +2,8 @@ import React from 'react'
 import classnames from 'classnames'
 import { Toolbar } from '@antv/x6-react-components'
 
-import type { IToolbarGroupOptions, IToolbarLayout } from '@antv/xflow-core'
-import { uuidv4 } from '@antv/xflow-core'
+import type { IToolbarGroupOptions, IToolbarLayout } from '@sunspirytus/xflow-core'
+import { uuidv4 } from '@sunspirytus/xflow-core'
 
 import { ToolbarItem } from './toolbar-item'
 
