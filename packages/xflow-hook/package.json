@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sunspirytus/xflow-hook",
-  "version": "1.0.52",
+  "version": "1.0.52-1",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist es lib",

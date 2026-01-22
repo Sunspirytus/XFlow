@@ -9,6 +9,7 @@ import {
   StopOutlined,
   EditOutlined,
   CloudDownloadOutlined,
+  DownloadOutlined,
 } from '@ant-design/icons'
 import type { NsGraph } from '../../../interface'
 
@@ -23,6 +24,8 @@ export enum StatusEnum {
   CREATING = 'CREATING',
   MANUAL_TERMINATE = 'MANUAL_TERMINATE',
   CACHED = 'CACHED',
+  QUEUEING = 'QUEUEING',
+  PULLING_IMAGE = 'PULLING_IMAGE',
   UNKNOWN = 'UNKNOWN',
 }
 
@@ -45,6 +48,10 @@ export const AlgoIcon: React.FC<IProps> = props => {
       return <StopOutlined style={{ color: '#faad14', fontSize: '16px' }} />
     case StatusEnum.CACHED:
       return <CloudDownloadOutlined style={{ color: '#faad14', fontSize: '16px' }} />
+    case StatusEnum.QUEUEING:
+      return <ExclamationCircleOutlined style={{ color: '#faad14', fontSize: '16px' }} />
+    case StatusEnum.PULLING_IMAGE:
+      return <DownloadOutlined style={{ color: '#faad14', fontSize: '16px' }} />
     case StatusEnum.UNKNOWN:
       return <QuestionCircleOutlined style={{ color: '#d9d9d9', fontSize: '16px' }} />
     default:

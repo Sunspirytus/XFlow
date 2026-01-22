@@ -137,7 +137,7 @@ export class FrontendApplication {
    * Initialize and start the frontend application contributions.
    */
   protected async startContributions(): Promise<void> {
-    console.log(this.contributions.getContributions())
+    //console.log(this.contributions.getContributions())
     for (const contribution of this.contributions.getContributions()) {
       if (contribution.onStart) {
         try {

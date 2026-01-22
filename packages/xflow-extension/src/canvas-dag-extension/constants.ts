@@ -36,6 +36,8 @@ export namespace GRAPH_STATUS_INFO {
     CREATING = 'CREATING',
     MANUAL_TERMINATE = 'MANUAL_TERMINATE',
     CACHED = 'CACHED',
+    QUEUEING = 'QUEUEING',
+    PULLING_IMAGE = 'PULLING_IMAGE',
     UNKNOWN = 'UNKNOWN',
   }
   export interface INodeStatus {

@@ -47,6 +47,8 @@ export namespace NsGraphStatusCommand {
     CREATING = 'CREATING',
     MANUAL_TERMINATE = 'MANUAL_TERMINATE',
     CACHED = 'CACHED',
+    QUEUEING = 'QUEUEING',
+    PULLING_IMAGE = 'PULLING_IMAGE',
     UNKNOWN = 'UNKNOWN',
   }
   /** 节点状态 类型 */
@@ -70,6 +72,8 @@ export namespace NsGraphStatusCommand {
     [NsGraphStatusCommand.StatusEnum.CREATING]: [],
     [NsGraphStatusCommand.StatusEnum.MANUAL_TERMINATE]: [],
     [NsGraphStatusCommand.StatusEnum.CACHED]: [],
+    [NsGraphStatusCommand.StatusEnum.QUEUEING]: [],
+    [NsGraphStatusCommand.StatusEnum.PULLING_IMAGE]: [],
     [NsGraphStatusCommand.StatusEnum.UNKNOWN]: [],
   })
   /** 接口返回 类型 */
@@ -95,7 +99,7 @@ export namespace NsGraphStatusCommand {
     return diff
   }
   export const shouldStop = async (info: IStatusInfo) => {
-    return [StatusEnum.FAILED, StatusEnum.SUCCEEDED].includes(info.graphStatus)
+    return [StatusEnum.FAILED, StatusEnum.SUCCEEDED, StatusEnum.MANUAL_TERMINATE].includes(info.graphStatus)
   }
 }
 /** 创建节点命令 */
