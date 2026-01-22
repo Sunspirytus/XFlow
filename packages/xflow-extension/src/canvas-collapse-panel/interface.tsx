@@ -65,6 +65,8 @@ export interface IProps extends Partial<ILayoutProps> {
   onCollapseChange?: (isCollapsed: boolean) => void
   /** collapseBtn 的样式 */
   collapseButtonStyle?: React.CSSProperties
+  /** 是否正在加载中 */
+  bodyLoading?: boolean
 }
 
 /** drop节点的回调，通过回调创建画布的节点 */

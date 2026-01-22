@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sunspirytus/xflow",
-  "version": "1.0.52-1",
+  "version": "1.0.52-2",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist es lib",
@@ -55,7 +55,10 @@
     "@antv/x6-react-shape": "^1.5.2",
     "@sunspirytus/xflow-core": "workspace:*",
     "@sunspirytus/xflow-extension": "workspace:*",
-    "@sunspirytus/xflow-hook": "workspace:*"
+    "@sunspirytus/xflow-hook": "workspace:*",
+    "antd": "^4.17.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",

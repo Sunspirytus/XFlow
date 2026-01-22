@@ -43,7 +43,9 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "antd": "^4.17.4"
+    "antd": "^4.17.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@changesets/cli": "^2.19.0",
