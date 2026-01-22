@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/travis/antvis/xflow.svg)](https://travis-ci.org/antvis/xflow) ![](https://img.shields.io/badge/language-javascript-red.svg) ![](https://img.shields.io/badge/license-MIT-000000.svg)
 
-[![npm package](https://img.shields.io/npm/v/@antv/xflow.svg)](https://www.npmjs.com/package/@antv/xflow) [![npm downloads](http://img.shields.io/npm/dm/@antv/xflow.svg)](https://npmjs.org/package/@antv/xflow) [![Percentage of issues still open](http://isitmaintained.com/badge/open/antvis/xflow.svg)](http://isitmaintained.com/project/antvis/xflow 'Percentage of issues still open')
+[![npm package](https://img.shields.io/npm/v/@sunspirytus/xflow.svg)](https://www.npmjs.com/package/@sunspirytus/xflow) [![npm downloads](http://img.shields.io/npm/dm/@sunspirytus/xflow.svg)](https://npmjs.org/package/@sunspirytus/xflow) [![Percentage of issues still open](http://isitmaintained.com/badge/open/antvis/xflow.svg)](http://isitmaintained.com/project/antvis/xflow 'Percentage of issues still open')
 
 ## What is XFlow?
 
@@ -41,27 +41,27 @@ XFlow is a graph editing application-level solution for users of the React techn
 
 ```shell
 #npm
-$ npm install @antv/xflow --save
+$ npm install @sunspirytus/xflow --save
 
 #yarn
-$ yarn add @antv/xflow
+$ yarn add @sunspirytus/xflow
 ```
 
 ### Using CDN
 
 Using a script tag, you can use either of the following two CDN's to load XFlow library; these CDN's default to returning the latest version of XFlow
 
-- https://unpkg.com/@antv/xflow/dist/index.umd.js
-- https://cdn.jsdelivr.net/npm/@antv/xflow/dist/index.umd.js
+- https://unpkg.com/@sunspirytus/xflow/dist/index.umd.js
+- https://cdn.jsdelivr.net/npm/@sunspirytus/xflow/dist/index.umd.js
 
 ```tsx | pure
-<script src="https://unpkg.com/@antv/xflow/dist/index.umd.js"></script>
+<script src="https://unpkg.com/@sunspirytus/xflow/dist/index.umd.js"></script>
 ```
 
 For production environments, we recommend using an explicit version number to avoid unpredictable damage caused by new version upgrades:
 
-- https://unpkg.com/@antv/xflow@0.3.2-beta.1/dist/index.umd.js
-- https://cdn.jsdelivr.net/npm/@antv/xflow@0.3.2-beta.1/dist/index.umd.js
+- https://unpkg.com/@sunspirytus/xflow@0.3.2-beta.1/dist/index.umd.js
+- https://cdn.jsdelivr.net/npm/@sunspirytus/xflow@0.3.2-beta.1/dist/index.umd.js
 
 ## Getting Started Example
 
@@ -214,7 +214,9 @@ We use [pnpm](https://pnpm.io/workspaces) to manage the project, the directory s
 
 ```shell
 # Install pnpm globally
-$ npm install pnpm -g
+$ nvm install 14
+$ nvm use 14
+$ npm install pnpm@6 -g
 
 # Install project dependencies and initialize the build
 $ pnpm install
@@ -227,25 +229,25 @@ $ pnpm install
 Create a new terminal to monitor the file changes of xflow-core, and execute the next command after waiting for the watch service to start successfully.
 
 ```shell
-yarn run dev:core
+pnpm run dev:core
 ```
 
 Create a new terminal to monitor the file changes of xflow-extension, and execute the next command after waiting for the watch service to start successfully.
 
 ```shell
-yarn run dev:ext
+pnpm run dev:ext
 ```
 
 Create a new terminal to monitor the file changes of xflow, and execute the next command after waiting for the watch service to start successfully.
 
 ```shell
-yarn run dev:main
+pnpm run dev:main
 ```
 
 3. Start the documentation website, debug the code according to the example
 
 ```shell
-yarn run dev:docs
+pnpm run dev:docs
 ```
 
 ## How to contribute

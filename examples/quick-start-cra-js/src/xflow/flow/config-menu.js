@@ -1,5 +1,5 @@
-import { createCtxMenuConfig, MenuItemType } from '@antv/xflow'
-import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow'
+import { createCtxMenuConfig, MenuItemType } from '@sunspirytus/xflow'
+import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@sunspirytus/xflow'
 import { DeleteOutlined, EditOutlined, StopOutlined } from '@ant-design/icons'
 
 /** 节点命令 */

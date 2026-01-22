@@ -27,8 +27,8 @@ nav:
 ### 如何新建 Hook 的配置项
 
 ```tsx | pure
-import type { NsGraph } from '@antv/xflow'
-import { XFlow, createHookConfig, DisposableCollection } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
+import { XFlow, createHookConfig, DisposableCollection } from '@sunspirytus/xflow'
 
 export const useGraphHookConfig = createHookConfig(config => {
   config.setRegisterHook(hooks => {

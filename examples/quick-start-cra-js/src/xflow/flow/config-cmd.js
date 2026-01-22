@@ -1,4 +1,4 @@
-import { createCmdConfig, DisposableCollection, uuidv4 } from '@antv/xflow'
+import { createCmdConfig, DisposableCollection, uuidv4 } from '@sunspirytus/xflow'
 
 export const useCmdConfig = createCmdConfig(config => {
   config.setRegisterHookFn(hooks => {

@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import type { IAppLoad, NsGraph, IApplication } from '@antv/xflow'
-import { XFlow, XFlowCanvas, KeyBindings } from '@antv/xflow'
-import { XFlowAppProvider, useXFlowApp } from '@antv/xflow'
-import type { NsGraphCmd, NsNodeCmd, NsEdgeCmd } from '@antv/xflow'
-import { XFlowGraphCommands, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow'
-import { CanvasMiniMap, CanvasScaleToolbar, CanvasSnapline } from '@antv/xflow'
-import { MODELS } from '@antv/xflow'
+import type { IAppLoad, NsGraph, IApplication } from '@sunspirytus/xflow'
+import { XFlow, XFlowCanvas, KeyBindings } from '@sunspirytus/xflow'
+import { XFlowAppProvider, useXFlowApp } from '@sunspirytus/xflow'
+import type { NsGraphCmd, NsNodeCmd, NsEdgeCmd } from '@sunspirytus/xflow'
+import { XFlowGraphCommands, XFlowNodeCommands, XFlowEdgeCommands } from '@sunspirytus/xflow'
+import { CanvasMiniMap, CanvasScaleToolbar, CanvasSnapline } from '@sunspirytus/xflow'
+import { MODELS } from '@sunspirytus/xflow'
 import GraphToolbar from './GraphToolbar/index'
 
 /** 配置画布 */

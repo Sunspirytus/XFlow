@@ -7,8 +7,8 @@ import {
   ExclamationCircleOutlined,
   InfoCircleOutlined,
 } from '@ant-design/icons'
-import type { NsGraph } from '@antv/xflow'
-import { NsGraphStatusCommand } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
+import { NsGraphStatusCommand } from '@sunspirytus/xflow'
 import './algo-node.less'
 
 const fontStyle = { fontSize: '16px', color: '#3057e3' }

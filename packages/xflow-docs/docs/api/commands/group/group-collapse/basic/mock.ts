@@ -1,5 +1,5 @@
-import type { NsGraph } from '@antv/xflow'
-import { uuidv4 } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
+import { uuidv4 } from '@sunspirytus/xflow'
 import { DND_NODE_RENDER_ID, GROUP_NODE_RENDER_ID, GROUP_COLLAPSED_SIZE } from './constant'
 
 // NodeConfig

@@ -1,9 +1,9 @@
-import type { NsGraph } from '@antv/xflow'
-import type { NsNodeCmd, NsEdgeCmd } from '@antv/xflow'
-import type { IMenuOptions } from '@antv/xflow'
-import { createCtxMenuConfig } from '@antv/xflow'
-import { MenuItemType } from '@antv/xflow'
-import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
+import type { NsNodeCmd, NsEdgeCmd } from '@sunspirytus/xflow'
+import type { IMenuOptions } from '@sunspirytus/xflow'
+import { createCtxMenuConfig } from '@sunspirytus/xflow'
+import { MenuItemType } from '@sunspirytus/xflow'
+import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@sunspirytus/xflow'
 import { DeleteOutlined, EditOutlined, StopOutlined } from '@ant-design/icons'
 
 /** menuitem 配置 */

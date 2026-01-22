@@ -118,7 +118,7 @@ interface CustomNode {
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import { Input } from 'antd'
-import { FlowchartFormPanel, FormWrapper } from '@antv/xflow'
+import { FlowchartFormPanel, FormWrapper } from '@sunspirytus/xflow'
 
 const InputComponent = props => {
   const { config, plugin = {} } = props

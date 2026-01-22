@@ -1,6 +1,6 @@
 import React from 'react'
-import type { NsGraph } from '@antv/xflow'
-import { useAppContext } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
+import { useAppContext } from '@sunspirytus/xflow'
 import './edge2.less'
 
 const Edge2: NsGraph.IEdgeRender = props => {

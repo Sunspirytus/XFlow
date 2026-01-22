@@ -1,5 +1,5 @@
-import type { NsNodeCollapsePanel } from '@antv/xflow'
-import { XFlowConstants } from '@antv/xflow'
+import type { NsNodeCollapsePanel } from '@sunspirytus/xflow'
+import { XFlowConstants } from '@sunspirytus/xflow'
 import React from 'react'
 import * as commandUtils from './comannd-utils'
 

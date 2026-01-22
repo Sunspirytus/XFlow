@@ -1,6 +1,6 @@
-import type { IAppLoad, NsGraphCmd } from '@antv/xflow'
-import { createGraphConfig } from '@antv/xflow'
-import { XFlowGraphCommands } from '@antv/xflow'
+import type { IAppLoad, NsGraphCmd } from '@sunspirytus/xflow'
+import { createGraphConfig } from '@sunspirytus/xflow'
+import { XFlowGraphCommands } from '@sunspirytus/xflow'
 import React from 'react'
 import { getGraphData } from './mock'
 

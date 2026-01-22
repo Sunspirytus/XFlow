@@ -8,7 +8,7 @@
 ```javascript
 {
   "dependencies": {
-    "@antv/xflow": "^1.0.13",
+    "@sunspirytus/xflow": "^1.0.53-1",
     "antd": "^4.17.4"
   },
    "devDependencies": {

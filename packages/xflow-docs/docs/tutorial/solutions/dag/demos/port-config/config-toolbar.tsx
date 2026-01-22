@@ -1,6 +1,6 @@
-import type { IToolbarItemOptions } from '@antv/xflow'
-import { createToolbarConfig, uuidv4 } from '@antv/xflow'
-import type { IModelService } from '@antv/xflow'
+import type { IToolbarItemOptions } from '@sunspirytus/xflow'
+import { createToolbarConfig, uuidv4 } from '@sunspirytus/xflow'
+import type { IModelService } from '@sunspirytus/xflow'
 import {
   XFlowGraphCommands,
   XFlowGroupCommands,
@@ -8,7 +8,7 @@ import {
   NsGraphStatusCommand,
   MODELS,
   IconStore,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import {
   UngroupOutlined,
   SaveOutlined,
@@ -21,7 +21,7 @@ import {
 import { MockApi } from './service'
 import { CustomCommands } from './cmd-extensions/constants'
 import type { NsDeployDagCmd } from './cmd-extensions/cmd-deploy'
-import type { NsGraphCmd, NsGroupCmd } from '@antv/xflow'
+import type { NsGraphCmd, NsGroupCmd } from '@sunspirytus/xflow'
 import { GROUP_NODE_RENDER_ID } from './constant'
 import { Popconfirm } from 'antd'
 import React from 'react'

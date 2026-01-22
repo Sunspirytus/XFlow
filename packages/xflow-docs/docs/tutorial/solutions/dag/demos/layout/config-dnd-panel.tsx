@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { uuidv4 } from '@antv/xflow'
-import { XFlowNodeCommands } from '@antv/xflow'
+import { uuidv4 } from '@sunspirytus/xflow'
+import { XFlowNodeCommands } from '@sunspirytus/xflow'
 import { DND_RENDER_ID } from './constant'
-import type { NsNodeCmd } from '@antv/xflow'
-import type { NsNodeCollapsePanel } from '@antv/xflow'
+import type { NsNodeCmd } from '@sunspirytus/xflow'
+import type { NsNodeCollapsePanel } from '@sunspirytus/xflow'
 import { Card } from 'antd'
 import React from 'react'
 

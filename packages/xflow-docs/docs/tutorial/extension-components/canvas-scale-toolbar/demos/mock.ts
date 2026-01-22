@@ -1,5 +1,5 @@
-import type { NsGraph } from '@antv/xflow'
-import { uuidv4 } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
+import { uuidv4 } from '@sunspirytus/xflow'
 
 // NodeConfig
 const NODE_COMMON_PROPS = {

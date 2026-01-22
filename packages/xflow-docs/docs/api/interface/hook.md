@@ -15,7 +15,7 @@ nav:
 
 ```tsx | pure
 /** 如何引入？ */
-import { IHookService } from '@antv/xflow'
+import { IHookService } from '@sunspirytus/xflow'
 
 /** 钩子服务 */
 export interface IHookService<T = IHooks> {

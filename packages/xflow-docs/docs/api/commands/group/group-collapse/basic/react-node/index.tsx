@@ -1,5 +1,5 @@
 import React from 'react'
-import type { NsGraph } from '@antv/xflow'
+import type { NsGraph } from '@sunspirytus/xflow'
 import './index.less'
 
 export const DndNode: NsGraph.INodeRender = props => {

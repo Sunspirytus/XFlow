@@ -11,7 +11,7 @@ import {
   // NsNodeCmd,
   IconStore,
   MODELS,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import {
   UngroupOutlined,
   SaveOutlined,

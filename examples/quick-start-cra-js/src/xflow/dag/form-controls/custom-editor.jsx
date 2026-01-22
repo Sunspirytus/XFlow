@@ -1,5 +1,5 @@
-import { useXFlowApp, MODELS, XFlowGraphCommands } from '@antv/xflow'
-import { FormItemWrapper } from '@antv/xflow'
+import { useXFlowApp, MODELS, XFlowGraphCommands } from '@sunspirytus/xflow'
+import { FormItemWrapper } from '@sunspirytus/xflow'
 import { Form, Input } from 'antd'
 import React from 'react'
 

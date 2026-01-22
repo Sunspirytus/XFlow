@@ -1,5 +1,5 @@
-import type { IModelService } from '@antv/xflow'
-import { createModelServiceConfig } from '@antv/xflow'
+import type { IModelService } from '@sunspirytus/xflow'
+import { createModelServiceConfig } from '@sunspirytus/xflow'
 
 export namespace NS_LOADING_STATE {
   export const id = 'test'

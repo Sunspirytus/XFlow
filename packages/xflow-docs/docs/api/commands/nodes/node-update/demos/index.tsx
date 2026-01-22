@@ -1,6 +1,6 @@
 import React from 'react'
-import type { IAppLoad, NsNodeCmd } from '@antv/xflow'
-import { XFlow, XFlowCanvas, createGraphConfig, XFlowNodeCommands } from '@antv/xflow'
+import type { IAppLoad, NsNodeCmd } from '@sunspirytus/xflow'
+import { XFlow, XFlowCanvas, createGraphConfig, XFlowNodeCommands } from '@sunspirytus/xflow'
 import { FormPanel } from './form'
 import './index.less'
 

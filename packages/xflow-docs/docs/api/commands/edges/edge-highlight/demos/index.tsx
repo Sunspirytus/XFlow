@@ -1,6 +1,6 @@
 import React from 'react'
-import { XFlow, XFlowCanvas, IAppLoad, IApplication, NsGraph, createGraphConfig } from '@antv/xflow'
-import { XFlowGraphCommands, XFlowEdgeCommands, NsGraphCmd, NsEdgeCmd } from '@antv/xflow'
+import { XFlow, XFlowCanvas, IAppLoad, IApplication, NsGraph, createGraphConfig } from '@sunspirytus/xflow'
+import { XFlowGraphCommands, XFlowEdgeCommands, NsGraphCmd, NsEdgeCmd } from '@sunspirytus/xflow'
 import { Graph as X6Graph } from '@antv/x6'
 import './index.less'
 

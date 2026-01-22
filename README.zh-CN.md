@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/travis/antvis/xflow.svg)](https://travis-ci.org/antvis/xflow) ![](https://img.shields.io/badge/language-javascript-red.svg) ![](https://img.shields.io/badge/license-MIT-000000.svg)
 
-[![npm package](https://img.shields.io/npm/v/@antv/xflow.svg)](https://www.npmjs.com/package/@antv/xflow) [![npm downloads](http://img.shields.io/npm/dm/@antv/xflow.svg)](https://npmjs.org/package/@antv/xflow) [![Percentage of issues still open](http://isitmaintained.com/badge/open/antvis/xflow.svg)](http://isitmaintained.com/project/antvis/xflow 'Percentage of issues still open')
+[![npm package](https://img.shields.io/npm/v/@sunspirytus/xflow.svg)](https://www.npmjs.com/package/@sunspirytus/xflow) [![npm downloads](http://img.shields.io/npm/dm/@sunspirytus/xflow.svg)](https://npmjs.org/package/@sunspirytus/xflow) [![Percentage of issues still open](http://isitmaintained.com/badge/open/antvis/xflow.svg)](http://isitmaintained.com/project/antvis/xflow 'Percentage of issues still open')
 
 ## 什么是 XFlow？
 
@@ -39,10 +39,10 @@ XFlow 是 AntV 旗下, 基于 X6 图编辑引擎、面向 React 技术栈用户�
 
 ```shell
 #npm
-$ npm install @antv/xflow --save
+$ npm install @sunspirytus/xflow --save
 
 #yarn
-$ yarn add @antv/xflow
+$ yarn add @sunspirytus/xflow
 
 ```
 
@@ -50,19 +50,19 @@ $ yarn add @antv/xflow
 
 通过 script 标签引入, 可以使用下面两个 CDN 中的任何一个, 默认返回 XFlow 的最新版:
 
-- https://unpkg.com/@antv/xflow/dist/index.umd.js
+- https://unpkg.com/@sunspirytus/xflow/dist/index.umd.js
 
-- https://cdn.jsdelivr.net/npm/@antv/xflow/dist/index.umd.js
+- https://cdn.jsdelivr.net/npm/@sunspirytus/xflow/dist/index.umd.js
 
 ```tsx | pure
-<script src="https://unpkg.com/@antv/xflow/dist/index.umd.js"></script>
+<script src="https://unpkg.com/@sunspirytus/xflow/dist/index.umd.js"></script>
 ```
 
 对于生产环境, 我们推荐使用一个明确的版本号, 以避免新版本升级造成不可预期的破坏:
 
-- https://unpkg.com/@antv/xflow@0.3.2-beta.1/dist/index.umd.js
+- https://unpkg.com/@sunspirytus/xflow@0.3.2-beta.1/dist/index.umd.js
 
-- https://cdn.jsdelivr.net/npm/@antv/xflow@0.3.2-beta.1/dist/index.umd.js
+- https://cdn.jsdelivr.net/npm/@sunspirytus/xflow@0.3.2-beta.1/dist/index.umd.js
 
 ## 开始使用
 
@@ -218,7 +218,9 @@ const onLoad: IAppLoad = async app => {
 
 ```shell
 # 全局安装 pnpm
-$ npm install pnpm -g
+$ nvm install 14
+$ nvm use 14
+$ npm install pnpm@6 -g
 
 # 安装项目依赖和初始化构建
 $ pnpm install
@@ -231,25 +233,25 @@ $ pnpm install
 新建 terminal 监听 xflow-core 的文件变化，等待 watch 服务启动成功后执行下个命令。
 
 ```shell
-yarn run dev:core
+pnpm run dev:core
 ```
 
 新建 terminal 监听 xflow-extension 的文件变化，等待 watch 服务启动成功后执行下个命令。
 
 ```shell
-yarn run dev:ext
+pnpm run dev:ext
 ```
 
 新建 terminal 监听 xflow 的文件变化，等待 watch 服务启动成功后执行下个命令。
 
 ```shell
-yarn run dev:main
+pnpm run dev:main
 ```
 
 3. 启动文档网站, 根据示例调试代码
 
 ```shell
-yarn run dev:docs
+pnpm run dev:docs
 ```
 
 ## 如何贡献

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Deferred, ManaSyringe } from '@antv/xflow'
+import { Deferred, ManaSyringe } from '@sunspirytus/xflow'
 import { Modal, Form, Input, ConfigProvider } from 'antd'
 
-import { ICommandContextProvider } from '@antv/xflow'
+import { ICommandContextProvider } from '@sunspirytus/xflow'
 
 import { CustomCommands } from './constants'
 

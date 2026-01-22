@@ -1,7 +1,7 @@
-import type { NsGraphCmd } from '@antv/xflow'
-import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@antv/xflow'
-import type { IApplication } from '@antv/xflow'
-import type { IGraphPipelineCommand } from '@antv/xflow'
+import type { NsGraphCmd } from '@sunspirytus/xflow'
+import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@sunspirytus/xflow'
+import type { IApplication } from '@sunspirytus/xflow'
+import type { IGraphPipelineCommand } from '@sunspirytus/xflow'
 import { MockApi } from './service'
 import { commandContributions } from './cmd-extensions'
 

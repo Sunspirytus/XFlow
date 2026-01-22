@@ -1,4 +1,4 @@
-# @antv/xflow-hook
+# @sunspirytus/xflow-hook
 
 ## Getting Started
 

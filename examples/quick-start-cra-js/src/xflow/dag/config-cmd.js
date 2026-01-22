@@ -1,4 +1,4 @@
-import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@antv/xflow'
+import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@sunspirytus/xflow'
 import { MockApi } from './service'
 import { commandContributions } from './cmd-extensions'
 

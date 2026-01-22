@@ -1,9 +1,9 @@
 import React from 'react'
 import { Card, Form, Input, Switch, message } from 'antd'
-import type { IFormSchema } from '@antv/xflow'
-import { useXFlowApp, WorkspacePanel, FormBuilder } from '@antv/xflow'
-import type { NsNodeCmd } from '@antv/xflow'
-import { XFlowNodeCommands } from '@antv/xflow'
+import type { IFormSchema } from '@sunspirytus/xflow'
+import { useXFlowApp, WorkspacePanel, FormBuilder } from '@sunspirytus/xflow'
+import type { NsNodeCmd } from '@sunspirytus/xflow'
+import { XFlowNodeCommands } from '@sunspirytus/xflow'
 
 interface IFormValues {
   nodeIds: string

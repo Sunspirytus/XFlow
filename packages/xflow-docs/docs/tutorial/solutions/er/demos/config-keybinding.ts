@@ -1,5 +1,5 @@
-import type { NsNodeCmd, NsEdgeCmd, IGraphCommandService } from '@antv/xflow'
-import { createKeybindingConfig, XFlowNodeCommands, XFlowEdgeCommands, MODELS } from '@antv/xflow'
+import type { NsNodeCmd, NsEdgeCmd, IGraphCommandService } from '@sunspirytus/xflow'
+import { createKeybindingConfig, XFlowNodeCommands, XFlowEdgeCommands, MODELS } from '@sunspirytus/xflow'
 import type { Node as X6Node, Edge as X6Edge } from '@antv/x6'
 import { Platform } from '@antv/x6'
 import { message } from 'antd'

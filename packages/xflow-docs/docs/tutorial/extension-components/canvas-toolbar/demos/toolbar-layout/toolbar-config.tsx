@@ -1,5 +1,5 @@
-import { createToolbarConfig } from '@antv/xflow'
-import { IconStore } from '@antv/xflow'
+import { createToolbarConfig } from '@sunspirytus/xflow'
+import { IconStore } from '@sunspirytus/xflow'
 import { PlusCircleOutlined } from '@ant-design/icons'
 
 IconStore.set('PlusCircleOutlined', PlusCircleOutlined)

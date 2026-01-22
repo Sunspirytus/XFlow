@@ -3,11 +3,11 @@
  * desc: 支持text/iconName/tooltip/isEnable/isDisable/active/onClick/render属性来配置Toolbar
  */
 import React from 'react'
-import type { IAppLoad } from '@antv/xflow'
-import { XFlow, createGraphConfig, XFlowCanvas, CanvasToolbar } from '@antv/xflow'
+import type { IAppLoad } from '@sunspirytus/xflow'
+import { XFlow, createGraphConfig, XFlowCanvas, CanvasToolbar } from '@sunspirytus/xflow'
 import { useToolbarConfig } from './toolbar-config'
 import './index.less'
-import '@antv/xflow/dist/index.css'
+import '@sunspirytus/xflow/dist/index.css'
 /**  Demo Props  */
 export interface IDemoProps {
   anything: string

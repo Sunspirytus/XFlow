@@ -13,11 +13,11 @@ import {
   createGraphConfig,
   NsJsonSchemaForm,
   XFlowNodeCommands,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import { set } from 'lodash'
 import { onLoad } from './graph-config'
-import type { NsNodeCmd, NsGraph } from '@antv/xflow'
-import '@antv/xflow/dist/index.css'
+import type { NsNodeCmd, NsGraph } from '@sunspirytus/xflow'
+import '@sunspirytus/xflow/dist/index.css'
 import './index.less'
 
 /**  Demo Props  */

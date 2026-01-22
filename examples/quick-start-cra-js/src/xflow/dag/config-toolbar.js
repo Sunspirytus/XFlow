@@ -1,4 +1,4 @@
-import { createToolbarConfig, uuidv4 } from '@antv/xflow'
+import { createToolbarConfig, uuidv4 } from '@sunspirytus/xflow'
 import {
   XFlowGraphCommands,
   XFlowGroupCommands,
@@ -6,7 +6,7 @@ import {
   NsGraphStatusCommand,
   MODELS,
   IconStore,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import {
   UngroupOutlined,
   SaveOutlined,

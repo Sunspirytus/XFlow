@@ -1,9 +1,9 @@
 import React from 'react'
 import { Card, Form, Input, InputNumber, message } from 'antd'
-import type { IFormSchema } from '@antv/xflow'
-import { usePanelContext, WorkspacePanel, FormBuilder } from '@antv/xflow'
-import type { NsNodeCmd } from '@antv/xflow'
-import { XFlowNodeCommands } from '@antv/xflow'
+import type { IFormSchema } from '@sunspirytus/xflow'
+import { usePanelContext, WorkspacePanel, FormBuilder } from '@sunspirytus/xflow'
+import type { NsNodeCmd } from '@sunspirytus/xflow'
+import { XFlowNodeCommands } from '@sunspirytus/xflow'
 
 export const width = 100
 export const height = 40

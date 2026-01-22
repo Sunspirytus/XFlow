@@ -1,4 +1,4 @@
-import { createModelServiceConfig } from '@antv/xflow'
+import { createModelServiceConfig } from '@sunspirytus/xflow'
 
 export const NS_LOADING_STATE = {}
 NS_LOADING_STATE.id = 'test'

@@ -5,7 +5,7 @@
  *   配置一个函数决定是否用自定义组件代替form的渲染 <br>
  */
 import React from 'react'
-import type { NsNodeCmd, NsGraph } from '@antv/xflow'
+import type { NsNodeCmd, NsGraph } from '@sunspirytus/xflow'
 import {
   XFlow,
   XFlowCanvas,
@@ -13,10 +13,10 @@ import {
   createGraphConfig,
   NsJsonSchemaForm,
   XFlowNodeCommands,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import { set } from 'lodash'
 import { onLoad } from './graph-config'
-import '@antv/xflow/dist/index.css'
+import '@sunspirytus/xflow/dist/index.css'
 import './index.less'
 
 /**  Demo Props  */

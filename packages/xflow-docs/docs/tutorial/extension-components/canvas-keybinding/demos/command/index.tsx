@@ -3,7 +3,7 @@
  * desc:  通过调用Command命令可以实现对图的交互:删除(backspace)/复制(ctrl+c)/粘贴(ctrl+v)
  */
 import React from 'react'
-import type { IAppLoad, NsGraphCmd, NsEdgeCmd, NsNodeCmd } from '@antv/xflow'
+import type { IAppLoad, NsGraphCmd, NsEdgeCmd, NsNodeCmd } from '@sunspirytus/xflow'
 import {
   XFlow,
   XFlowCanvas,
@@ -14,7 +14,7 @@ import {
   XFlowNodeCommands,
   createGraphConfig,
   createKeybindingConfig,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import { getGraphData } from './mock'
 import './index.less'
 import type { Node, Edge } from '@antv/x6'

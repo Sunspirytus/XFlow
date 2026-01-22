@@ -1,9 +1,9 @@
 import React from 'react'
 import { Card, Form, Input, message, Button } from 'antd'
-import type { IFormSchema } from '@antv/xflow'
-import { useXFlowApp, WorkspacePanel, FormBuilder, uuidv4, delay } from '@antv/xflow'
-import type { NsGroupCmd } from '@antv/xflow'
-import { XFlowGroupCommands } from '@antv/xflow'
+import type { IFormSchema } from '@sunspirytus/xflow'
+import { useXFlowApp, WorkspacePanel, FormBuilder, uuidv4, delay } from '@sunspirytus/xflow'
+import type { NsGroupCmd } from '@sunspirytus/xflow'
+import { XFlowGroupCommands } from '@sunspirytus/xflow'
 
 interface IFormValues {
   id: string

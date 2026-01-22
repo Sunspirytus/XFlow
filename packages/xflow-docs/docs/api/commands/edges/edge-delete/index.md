@@ -51,7 +51,7 @@ XFlow 的命令可以通过全局的 Hook 来扩展业务逻辑, 比如 DelEdge 
 
 ```tsx | pure
 
-import { createCmdConfig, DisposableCollection } from '@antv/xflow'
+import { createCmdConfig, DisposableCollection } from '@sunspirytus/xflow'
 import { MockApi } from './service'
 
 export const useCmdConfig = createCmdConfig(config => {

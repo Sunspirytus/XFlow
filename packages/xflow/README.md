@@ -1,4 +1,4 @@
-# @antv/xflow
+# @sunspirytus/xflow
 
 ## Getting Started
 

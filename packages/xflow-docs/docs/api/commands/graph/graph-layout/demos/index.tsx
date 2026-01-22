@@ -1,8 +1,8 @@
 import React from 'react'
-import type { IAppLoad, NsGraph, NsGraphCmd } from '@antv/xflow'
-import { XFlow, XFlowCanvas, createGraphConfig, XFlowGraphCommands } from '@antv/xflow'
+import type { IAppLoad, NsGraph, NsGraphCmd } from '@sunspirytus/xflow'
+import { XFlow, XFlowCanvas, createGraphConfig, XFlowGraphCommands } from '@sunspirytus/xflow'
 import './index.less'
-import '@antv/xflow/dist/index.css'
+import '@sunspirytus/xflow/dist/index.css'
 
 export const useGraphConfig = createGraphConfig(config => {
   config.setX6Config({ grid: true })

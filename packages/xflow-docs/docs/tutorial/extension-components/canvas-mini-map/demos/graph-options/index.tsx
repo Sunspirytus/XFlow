@@ -4,16 +4,16 @@
  */
 
 import React from 'react'
-import type { IAppLoad, NsGraphCmd } from '@antv/xflow'
+import type { IAppLoad, NsGraphCmd } from '@sunspirytus/xflow'
 import {
   XFlow,
   createGraphConfig,
   XFlowCanvas,
   CanvasMiniMap,
   XFlowGraphCommands,
-} from '@antv/xflow'
+} from '@sunspirytus/xflow'
 import { getGraphData } from './mock'
-import '@antv/xflow/dist/index.css'
+import '@sunspirytus/xflow/dist/index.css'
 import './index.less'
 
 /**  Demo Props  */
